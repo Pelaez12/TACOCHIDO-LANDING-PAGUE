@@ -149,7 +149,7 @@ function App() {
 
           <div className="profile-content">
             <div className="intro-copy">
-              <p className="intro-copy__eyebrow">Tacos mexicanos. Barrio peruano.</p>
+              <p className="intro-copy__eyebrow">TACO CHIDO PARA GENTE CHIDA</p>
               <h1>Sin floro. Con sazón.</h1>
               <p>El antojo empieza aquí.</p>
             </div>
