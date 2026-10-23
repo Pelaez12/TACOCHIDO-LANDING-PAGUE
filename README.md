@@ -26,3 +26,8 @@ La carta aún no fue proporcionada. El botón actual solicita la carta por Whats
 Los logos se extrajeron del manual facilitado por el usuario. Las fuentes web son Lilita One y Manrope, alojadas localmente en WOFF2 con sus licencias OFL en `public/fonts/`. Sustituyen los subconjuntos del PDF, que carecen de algunos glifos y causaban letras invisibles en iPhone. `scripts/prepare-web-fonts.py` descarga las fuentes del repositorio oficial de Google Fonts y comprueba que las letras, tildes, signos y números tengan glifos válidos (requiere Python, fonttools y brotli).
 
 Las portadas están guardadas en `public/` para que aparezcan sin esperar a que carguen Instagram o TikTok. Los reproductores externos dependen de cada plataforma.
+
+## Sitemap
+
+Dominio canónico: https://tacochido.comunidadfortaleza.com/.
+`public/sitemap.xml` incluye la página principal, la única página propia de esta landing; los enlaces de redes, mapa y WhatsApp son externos. `public/robots.txt` permite el rastreo y declara la dirección del sitemap. Vite copia ambos archivos a `dist/` en cada compilación. Actualizar `lastmod` cuando cambie el contenido de la página.
