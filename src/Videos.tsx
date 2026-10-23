@@ -3,8 +3,8 @@ import { ArrowUpRight, Play } from 'lucide-react';
 import { SiInstagram, SiTiktok } from 'react-icons/si';
 
 const videos = [
-  { id: 'DeCjlF_JTfm', platform: 'Instagram', title: 'Desde Taco Chido', href: 'https://www.instagram.com/reel/DeCjlF_JTfm/', embed: 'https://www.instagram.com/reel/DeCjlF_JTfm/embed/', caption: 'Un taco chido al día.', theme: 'red' },
   { id: '7682881146522291476', platform: 'TikTok', title: 'La cámara escondida de los lunes', href: 'https://www.tiktok.com/@tacochido.pe/video/7682881146522291476', embed: 'https://www.tiktok.com/player/v1/7682881146522291476?autoplay=0', caption: 'Los lunes también tienen sazón.', theme: 'gold' },
+  { id: 'DeCjlF_JTfm', platform: 'Instagram', title: 'Desde Taco Chido', href: 'https://www.instagram.com/reel/DeCjlF_JTfm/', embed: 'https://www.instagram.com/reel/DeCjlF_JTfm/embed/', caption: 'Un taco chido al día.', theme: 'red' },
   { id: 'DeSlCF-JRwL', platform: 'Instagram', title: 'Más de Taco Chido', href: 'https://www.instagram.com/reel/DeSlCF-JRwL/', embed: 'https://www.instagram.com/reel/DeSlCF-JRwL/embed/', caption: 'La clave de la alegría.', theme: 'ink' },
 ];
 
