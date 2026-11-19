@@ -75,7 +75,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #0045ff; outline-offs
   text-wrap: balance;
 }
 .intro-copy > p:last-child { margin: 16px 0 0; font-size: 13px; font-weight: 700; }
-.actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 34px; }
+.actions { display: grid; grid-template-columns: minmax(0, 320px); justify-content: center; gap: 10px; margin-top: 34px; }
 .action {
   display: flex;
   min-width: 0;

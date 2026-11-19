@@ -1,5 +1,5 @@
 import { useCallback, useLayoutEffect, useState } from 'react';
-import { ArrowUpRight, BookOpen, Clock, MapPin } from 'lucide-react';
+import { ArrowUpRight, Clock, MapPin } from 'lucide-react';
 import { motion, useAnimate, useReducedMotion } from 'motion/react';
 import { SiInstagram, SiTiktok, SiWhatsapp } from 'react-icons/si';
 import { FcGoogle } from 'react-icons/fc';
@@ -8,7 +8,6 @@ import Videos from './Videos';
 const phone = '946247918';
 const whatsapp = `https://wa.me/51${phone}`;
 const instagram = 'https://www.instagram.com/tacochido.pe/';
-const carta = 'https://cartachida.comunidadfortaleza.com/';
 const tiktok = 'https://www.tiktok.com/@tacochido.pe';
 const review = 'https://search.google.com/local/writereview?placeid=ChIJaVtVQQDJBZERRWH6wvIGaGE';
 const mapEmbed = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62419.513890942835!2d-77.07582153243418!3d-12.097112274915386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c90041555b69%3A0x616806f2c2fa6145!2sTaco%20Chido!5e0!3m2!1ses-419!2spe!4v1792779300412!5m2!1ses-419!2spe';
@@ -154,15 +153,10 @@ function App() {
               <p>El antojo empieza aquí.</p>
             </div>
 
-            <section className="actions" aria-label="Pide y consulta la carta de Taco Chido">
+            <section className="actions" aria-label="Pide en Taco Chido">
               <a className="action action--primary" href={whatsapp} target="_blank" rel="noopener noreferrer">
                 <SiWhatsapp size={22} aria-hidden="true" />
                 <span>Pide tus tacos</span>
-                <ArrowUpRight size={19} aria-hidden="true" />
-              </a>
-              <a className="action action--menu" href={carta} target="_blank" rel="noopener noreferrer" aria-label="Ingresa a nuestra carta">
-                <BookOpen size={20} aria-hidden="true" />
-                <span>Ingresa a nuestra carta aquí</span>
                 <ArrowUpRight size={19} aria-hidden="true" />
               </a>
             </section>
